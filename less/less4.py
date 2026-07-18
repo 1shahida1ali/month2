@@ -9,7 +9,7 @@
 # | `__eq__`      | `==`                      |
 # | `__lt__`      | `<`                       |
 # | `__gt__`      | `>`                       |
-from lessons.lesson3 import ardager
+# from lessons.lesson3 import ardager
 
 
 # | Оператор | Магический метод | Пример   |
@@ -104,7 +104,7 @@ class BankAccount:
         self._balance = balance
         self.__bonus = bonus
     def get_name(self):
-        return self.name.
+        return self.name
 
     @classmethod
     def get_bank_name(cls):
